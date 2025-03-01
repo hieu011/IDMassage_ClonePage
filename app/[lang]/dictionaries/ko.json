@@ -1,0 +1,12 @@
+{
+    "header": {
+      "navbar": {
+        "btn-trans-vi": "베트남어",
+        "btn-trans-en": "영어",
+        "btn-trans-ko": "한국어",
+        "btn-book": "지금 예약하기",
+        "input-placeholder": "무엇을 찾고 있나요?"
+      }
+    }
+  }
+  

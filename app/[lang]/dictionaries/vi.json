@@ -1,0 +1,11 @@
+{
+    "header": {
+      "navbar": {
+        "btn-trans-vi":"Tiếng việt",
+        "btn-trans-en":"Tiếng anh",
+        "btn-trans-ko":"Tiếng hàn",
+        "btn-book":"Đặt ngay",
+        "input-placeholder":"Bạn cần tìm gì?"
+      }
+    }
+}

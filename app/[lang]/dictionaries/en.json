@@ -1,0 +1,12 @@
+{
+    "header": {
+      "navbar": {
+        "btn-trans-vi": "Vietnamese",
+        "btn-trans-en": "English",
+        "btn-trans-ko": "Korean",
+        "btn-book": "Book Now",
+        "input-placeholder": "What are you looking for?"
+      }
+    }
+  }
+  
