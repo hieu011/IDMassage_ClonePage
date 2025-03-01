@@ -80,7 +80,7 @@ export function ProductImages() {
                     <SwiperSlide
                         key={index}
                     >
-                        <div className={`flex items-center justify-center border p-1 rounded-sm ${activeIndex === index && 'border-black'}`} >
+                        <div className={`flex items-center justify-center border p-1 rounded-sm ${activeIndex === index ? 'border-black' : 'border-gray-200'}`} >
                             <Image src={image?.url} alt="image" className="w-[54px] h-[54px] object-cover rounded-sm" width={54} height={54} />
                         </div>
                     </SwiperSlide>
