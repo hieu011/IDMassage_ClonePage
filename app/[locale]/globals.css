@@ -123,7 +123,16 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+:root {
+  --header-color-: #4f7344;
+  --button-green-color-: #4caf51;
+  --button-red-color-: #f00;
+  --button-pink-color-: #f8becb;
+  --button-hover-color: #f5ce9e;
 }

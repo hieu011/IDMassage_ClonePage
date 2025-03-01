@@ -19,6 +19,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        service: "rounded-full uppercase text-[13px] !py-5 !px-10 text-white bg-[var(--button-green-color-)] hover:bg-[var(--button-hover-color)] cursor-pointer duration-200",
+        serviceInfo: "rounded-sm uppercase text-[13px] !py-5 w-[280px] text-white bg-[var(--button-green-color-)] hover:bg-[var(--button-hover-color)] cursor-pointer duration-200",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
