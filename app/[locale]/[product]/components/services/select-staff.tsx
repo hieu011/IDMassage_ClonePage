@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 
 const fakeTickets = [
     { id: 1, duration: "60 phút", price: 370000, description: "Massage body" },
@@ -8,15 +9,16 @@ const fakeTickets = [
 ];
 
 const SelectStaff = () => {
+    const t = useTranslations('ProductDetail')
     return (
         <div className="mt-15">
             <p className="text-sm mt-4">
-                Hãy chọn vé
-                <span className="uppercase text-[var(--button-pink-color-)] font-[700]"> chọn nhân viên </span>
-                dưới đây nếu bạn chọn nhân viên, nhân viên bạn chọn sẽ đến làm massage cho bạn.
+                {t('choose_ticket_below')}
+                <span className="uppercase text-[var(--button-pink-color-)] font-[700]"> {t('selected_staff_ticket')} </span>
+                {t('if_choose_specific_staff')}
             </p>
             <div className="shadow-[0px_1px_15px_0px_rgba(50,50,50,0.4)] rounded-2xl max-w-[85%] m-auto p-3 pb-6 text-center mt-5">
-                <h3 className="uppercase text-[var(--button-pink-color-)] mb-10 text-[19px] font-[700]">vé chọn nhân viên</h3>
+                <h3 className="uppercase text-[var(--button-pink-color-)] mb-10 text-[19px] font-[700]">{t('selected_staff_ticket')}</h3>
                 <div className="leading-16">
                     {fakeTickets.map((ticket) => (
                         <p key={ticket.id} className="uppercase text-[15px]">
@@ -26,9 +28,9 @@ const SelectStaff = () => {
                     ))}
                 </div>
                 <p className="text-[9px] text-[var(--button-green-color-)] italic">
-                    Đã gồm tip + phí di chuyển (vui lòng chỉ thanh toán đúng giá vé)
+                    {t('included_tip_travel')}
                 </p>
-                <Button variant={'service'} className='uppercase mt-10 bg-[var(--button-pink-color-)]'>Chọn nhân viên ngay</Button>
+                <Button variant={'service'} className='uppercase mt-10 bg-[var(--button-pink-color-)]'>{t('choose_staff_now')}</Button>
             </div>
         </div>
     );

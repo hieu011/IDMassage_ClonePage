@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import ServiceCard from "./service-card"
 const fakeTickets = [
     { id: 1, duration: "60 phút", price: 370000, description: "Massage body", highlight: false },
@@ -7,19 +8,20 @@ const fakeTickets = [
 ];
 
 const ServiceList = () => {
+    const t = useTranslations('ProductDetail')
     return (
         <div className="border-t py-10">
-            <p className="text-xs text-[#bbbbbb] italic">- Hướng dẫn đặt massage: Chọn loại vé phù hợp, ghi thêm địa chỉ của bạn & gửi</p>
+            <p className="text-xs text-[#bbbbbb] italic">- {t('booking_guide')}: {t('choose_ticket')}</p>
             <h1 className="uppercase text-[19px] font-[700] text-[var(--button-green-color-)] text-center mt-4">
-                Nhân viên ngẫu nhiên
+                {t('random_staff')}
             </h1>
             <p className="text-sm mt-4">
-                Hãy chọn vé
-                <span className="uppercase text-[var(--button-green-color-)] font-[700]"> nhân viên ngẫu nhiên </span>
-                dưới đây nếu bạn
-                <strong> chọn nhân viên</strong>
-                , nhân viên đến làm cho bạn được
-                <strong> điều phối theo ngẫu nhiên</strong>
+                {t('choose_ticket_below')}
+                <span className="uppercase text-[var(--button-green-color-)] font-[700]">  {t('random_staff')} </span>
+                {t('if_choose_staff')}
+                <strong> {t('choose_staff')}</strong>
+                {t('staff_will_be_assigned')}
+                <strong>{t('randomly_assigned')}</strong>
             </p>
             {fakeTickets?.map((data) => (
                 <ServiceCard key={data.id} data={data} />

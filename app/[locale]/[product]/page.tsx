@@ -4,7 +4,7 @@ import Services from "./components/services"
 import { useTranslations } from "next-intl";
 
 const ProductDetailPage = () => {
-    const t = useTranslations('HomePage');
+    const t = useTranslations('ProductDetail');
     return (
         <div className="bg-[#f5f8fd]">
             <div className="bg-[#f9f9f9] py-2 overflow-auto">
@@ -13,16 +13,12 @@ const ProductDetailPage = () => {
                     <span>/</span>
                     <Link href={'/'} className="hover:text-[var(--header-color-)] text-nowrap">P. 1 - Q. 2 - TP. NHA TRANG</Link>
                     <span>/</span>
-                    <p className="uppercase text-[var(--header-color-)] text-nowrap">Massage tại nhà - vé nhân viên ngẫu nhiên</p>
+                    <p className="uppercase text-[var(--header-color-)] text-nowrap">{t('service_type')}</p>
                 </div>
             </div>
             <div className="py-3 px-2">
                 <ProductDetails />
                 <Services />
-            </div>
-            <div>
-                <h1>{t('title')}</h1>
-                <Link href="/about">{t('about')}</Link>
             </div>
         </div>
     )
