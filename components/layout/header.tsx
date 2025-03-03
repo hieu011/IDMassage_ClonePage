@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -15,19 +16,22 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 interface HeaderProps {
     dict: {
-        "btn-trans-vi": string;
-        "btn-trans-en": string;
-        "btn-trans-ko": string;
-        "btn-book": string;
-        "input-placeholder": string;
+        "btnTransVi": string;
+        "btnTransEn": string;
+        "btnTransKo": string;
+        "btnBooking": string;
+        "inputPlaceholder": string;
     };
-  }
+}
 export function Header({ dict }: HeaderProps) {
+    const pathname = usePathname();
+    const appPath = pathname.replace(/^\/(vi|en|ko)/, "");
     return (
-        <header className="w-full bg-green-900 shadow-md">
+        <header className="w-full bg-[var(--header-color-)] shadow-md">
             <div className="mx-auto py-2 flex justify-around items-center">
                 <div className="w-48 md:w-48 lg:w-48">
                     <AspectRatio ratio={1200 / 400} className="relative">
@@ -44,48 +48,59 @@ export function Header({ dict }: HeaderProps) {
                     <NavigationMenu>
                         <NavigationMenuList>
                             <NavigationMenuItem>
-                                <Button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-black shadow-md hover:bg-gray-200 transition cursor-pointer">
-                                    <Image
-                                        src="https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/quoc-ky-viet-nam_1.png?1708595382796"
-                                        alt="Icon"
-                                        width={24}
-                                        height={24}
-                                        className="object-contain"
-                                    />
-                                    <span className="text-sm font-medium">{dict["btn-trans-vi"]}</span>
-                                </Button>
+                                <Link
+                                    href={`/vi/${appPath}`}
+                                >
+                                    <Button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-black shadow-md hover:bg-gray-200 transition cursor-pointer">
+                                        <Image
+                                            src="https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/quoc-ky-viet-nam_1.png?1708595382796"
+                                            alt="Icon"
+                                            width={24}
+                                            height={24}
+                                            className="object-contain"
+                                        />
+                                        <span className="text-sm font-medium">{dict.btnTransVi}</span>
+                                    </Button>
+                                </Link>
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <Button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-black shadow-md hover:bg-gray-200 transition cursor-pointer">
-                                    <Image
-                                        src="https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/la-co-vuong-quoc-anh_1.png?1708595382796"
-                                        alt="Icon"
-                                        width={24}
-                                        height={24}
-                                        className="object-contain"
-                                    />
-                                    <span className="text-sm font-medium">{dict["btn-trans-en"]}</span>
-                                </Button>
+                                <Link
+                                    href={`/en/${appPath}`}
+                                >
+                                    <Button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-black shadow-md hover:bg-gray-200 transition cursor-pointer">
+                                        <Image
+                                            src="https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/la-co-vuong-quoc-anh_1.png?1708595382796"
+                                            alt="Icon"
+                                            width={24}
+                                            height={24}
+                                            className="object-contain"
+                                        />
+                                        <span className="text-sm font-medium">{dict.btnTransEn}</span>
+                                    </Button>
+                                </Link>
+
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <Button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-black shadow-md hover:bg-gray-200 transition cursor-pointer">
-                                    <Image
-                                        src="https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/flag_of_south_korea_1.png?1708595382796"
-                                        alt="Icon"
-                                        width={24}
-                                        height={24}
-                                        className="object-contain"
-                                    />
-                                    <span className="text-sm font-medium">{dict["btn-trans-ko"]}</span>
-                                </Button>
+                                <Link href={`/ko/${appPath}`}>
+                                    <Button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-black shadow-md hover:bg-gray-200 transition cursor-pointer">
+                                        <Image
+                                            src="https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/flag_of_south_korea_1.png?1708595382796"
+                                            alt="Icon"
+                                            width={24}
+                                            height={24}
+                                            className="object-contain"
+                                        />
+                                        <span className="text-sm font-medium">{dict.btnTransKo}</span>
+                                    </Button>
+                                </Link>
                             </NavigationMenuItem>
 
                         </NavigationMenuList>
                     </NavigationMenu>
                     <Button className="bg-red-700 hover:bg-yellow-700 cursor-pointer px-6 py-6 rounded-xl text-xl font-bold">
-                        {dict["btn-book"]}
+                        {dict.btnBooking}
                     </Button>
                     <div className="relative bg-transparent rounded-full cursor-pointer">
                         <ShoppingCart className="text-white hover:text-black" size={40} />
@@ -100,7 +115,7 @@ export function Header({ dict }: HeaderProps) {
                 <div className="relative w-full max-w-7xl mx-auto">
                     <Input
                         type="text"
-                        placeholder={dict["input-placeholder"]}
+                        placeholder={dict.inputPlaceholder}
                         className="pl-6 py-6 w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500 bg-white !text-lg"
                     />
                     <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500" />

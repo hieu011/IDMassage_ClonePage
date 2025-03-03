@@ -1,13 +1,35 @@
 {
   "header": {
     "navbar": {
-      "btn-trans-vi": "Tiếng việt",
-      "btn-trans-en": "Tiếng anh",
-      "btn-trans-ko": "Tiếng hàn",
-      "btn-book": "Đặt ngay",
-      "input-placeholder": "Bạn cần tìm gì?"
+        "btnTransVi": "Tiếng việt",
+        "btnTransEn": "Tiếng anh",
+        "btnTransKo": "Tiếng hàn",
+        "btnBooking": "Đặt ngay",
+        "inputPlaceholder": "Bạn cần tìm gì?"
     }
   },
+  "bannerUrl": {
+    "introductionBanner": "https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/header_banner.jpg?1708595382796",
+    "randomEmployeeBanner": "https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/feature_banner.jpg?1708595382796",
+    "pickEmployeeBanner": "https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/feature4_banner.jpg?1708595382796"
+  },
+  "bannerButton": {
+    "randomEmployeeButton": "ĐẶT NGAY",
+    "bannerButtonText":"Siêu tiện lợi - Chỉ cần chọn & đặt massage - Không cần tạo tài khoản",
+    "pickEmployeeButton": "CHỌN NHÂN VIÊN NGAY"
+  },
+  "listButtonService": [
+    { "label": "THỜI GIAN HOẠT ĐỘNG" },
+    { "label": "HƯỚNG DẪN ĐẶT LỊCH" },
+    { "label": "THỜI GIAN ĐẾN" },
+    { "label": "GIÁ VÉ" },
+    { "label": "PHƯƠNG THỨC THANH TOÁN" },
+    { "label": "HÌNH THỨC DỊCH VỤ" },
+    { "label": "QUY TRÌNH MASSAGE" },
+    { "label": "LỢI ÍCH VÀ LƯU Ý" },
+    { "label": "LIÊN HỆ" },
+    { "label": "KHIẾU NẠI" }
+  ],
   "product_detail": {
     "service": "Dịch vụ",
     "service_name": "Dịch vụ massage tại nhà khách sạn",

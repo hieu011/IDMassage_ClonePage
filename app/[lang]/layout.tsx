@@ -9,7 +9,7 @@ export default async function RootLayout({
   params: Promise<{ lang: 'en' | 'vi' | 'ko' }>
 }>) {
   const lang = (await params).lang
-  const dict = await getDictionary(lang)
+  const dict = await getDictionary(lang);
 
   return (
     <>

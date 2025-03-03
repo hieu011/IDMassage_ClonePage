@@ -1,13 +1,35 @@
 {
   "header": {
     "navbar": {
-      "btn-trans-vi": "Vietnamese",
-      "btn-trans-en": "English",
-      "btn-trans-ko": "Korean",
-      "btn-book": "Book Now",
-      "input-placeholder": "What are you looking for?"
+      "btnTransVi": "Vietnamese",
+      "btnTransEn": "English",
+      "btnTransKo": "Korean",
+      "btnBooking": "Book Now",
+      "inputPlaceholder": "What are you looking for?"
     }
   },
+  "bannerUrl": {
+    "introductionBanner": "https://bizweb.dktcdn.net/100/449/178/themes/866687/assets/header_banner.jpg?1708595489272",
+    "randomEmployeeBanner": "https://bizweb.dktcdn.net/100/449/178/themes/866687/assets/feature_banner.jpg?1708595489272",
+    "pickEmployeeBanner": "https://bizweb.dktcdn.net/100/449/178/themes/866687/assets/feature4_banner.jpg?1708595489272"
+  },
+  "bannerButton": {
+    "randomEmployeeButton": "BOOK NOW",
+    "bannerButtonText":"Super convenient - Just select & book a massage - No account required",
+    "pickEmployeeButton": "CHOOSE EMPLOYEE NOW"
+  },
+  "listButtonService": [
+    { "label": "WORKING TIME" },
+    { "label": "INSTRUCTIONS" },
+    { "label": "ARRIVAL TIME" },
+    { "label": "TICKET PRICE" },
+    { "label": "PAYMENT METHODS" },
+    { "label": "SERVICE FORM" },
+    { "label": "5 STEP MASSAGE" },
+    { "label": "BENEFITS - NOTES" },
+    { "label": "CONTACT" },
+    { "label": "COMPLAIN" }
+  ],
   "product_detail": {
     "service": "Service",
     "service_name": "Hotel home massage service",

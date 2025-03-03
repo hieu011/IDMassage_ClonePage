@@ -7,15 +7,28 @@ import { Recruitment } from "./recruitment";
 import { ListButtonService } from "./list-button-service";
 
 
-export default function ServicesIntroduction() {
+export default function ServicesIntroduction({dict,lang} : any) {
+  const introductionBanner = dict?.bannerUrl?.introductionBanner;
+  const priceRandomEmployee = {
+    bannerUrl: dict?.bannerUrl?.randomEmployeeBanner,
+    bannerButton: dict?.bannerButton?.randomEmployeeButton,
+    bannerText: dict?.bannerButton?.bannerButtonText
+  };
+  
+  const pricePickEmployee = {
+    bannerUrl: dict?.bannerUrl?.pickEmployeeBanner,
+    bannerButton: dict?.bannerButton?.pickEmployeeButton,
+    bannerText: dict?.bannerButton?.bannerButtonText
+  };
+  const listButtonService = dict?.listButtonService;
   return (
     <Container>
-      <IntroductionBanner/>
+      <IntroductionBanner introductionBanner = {introductionBanner}/>
       <LanguageButton/>
-      <PriceRandomEmployee/>
-      <PricePickEmployee/>
-      <ListButtonService/>
-      <Recruitment/>
+      <PriceRandomEmployee priceRandomEmployee = {priceRandomEmployee}/>
+      <PricePickEmployee  pricePickEmployee = {pricePickEmployee}/>
+      <ListButtonService listButtonService = {listButtonService}/>
+      <Recruitment lang={lang}/>
     </Container>
   );
 }
