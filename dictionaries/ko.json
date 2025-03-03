@@ -1,0 +1,44 @@
+{
+  "header": {
+    "navbar": {
+      "btn-trans-vi": "베트남어",
+      "btn-trans-en": "영어",
+      "btn-trans-ko": "한국어",
+      "btn-book": "지금 예약하기",
+      "input-placeholder": "무엇을 찾고 있나요?"
+    }
+  },
+  "product_detail": {
+    "service": "서비스",
+    "service_name": "호텔 홈 마사지 서비스",
+    "service_type": "홈 마사지 - 랜덤 직원 티켓",
+    "ticket_type": "티켓 유형",
+    "random_staff": "랜덤 직원",
+    "listed_price": "정가",
+    "save": "절약",
+    "free_shipping": "무료 배송 - 올인원 가격 (팁 포함), 정확한 티켓 가격만 결제하세요",
+    "included_tip_travel": "팁 + 이동 비용 포함 (정확한 티켓 가격만 결제하세요)",
+    "service_time": "서비스 시간",
+    "quiet_space": "조용한 공간",
+    "absolute_silence": "완전한 침묵 - 방해 금지",
+    "normal_silence": "보통 침묵 - 최소한의 대화",
+    "lively_space": "활기찬 공간",
+    "select": "선택",
+    "duration": "분",
+    "compare_market_price": "시장 가격과 비교",
+    "thailand_massage": "태국 마사지",
+    "gua_sha_massage": "괄사 마사지",
+    "swedish_massage": "스웨덴 마사지",
+    "booking_guide": "마사지 예약 가이드",
+    "choose_ticket": "적절한 티켓을 선택하고 주소를 추가한 후 보내세요",
+    "choose_ticket_below": "아래에서 티켓을 선택하세요",
+    "if_choose_staff": "아래에서 선택하면",
+    "choose_staff": "직원 선택",
+    "staff_will_be_assigned": ", 배정된 직원이 당신을 위해 일할 것입니다",
+    "randomly_assigned": "랜덤 배정됨",
+    "book_now": "지금 예약",
+    "selected_staff_ticket": "직원 선택 티켓",
+    "if_choose_specific_staff": "아래에서 특정 직원을 선택하면, 해당 직원이 마사지 서비스를 제공합니다.",
+    "choose_staff_now": "직원 지금 선택"
+  }
+}

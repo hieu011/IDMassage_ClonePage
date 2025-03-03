@@ -1,7 +1,7 @@
 import Link from "next/link"
-import ProductDetails from "./components/prduct-details"
+import ProductDetails from "./components/product-details"
 import Services from "./components/services"
-import { getDictionary } from "../dictionaries/dictionaries"
+import { getDictionary } from "../../../dictionaries/dictionaries"
 
 const ProductDetailPage = async ({ params }: {
     params: Promise<{ lang: 'en' | 'vi' | 'ko' }>
@@ -22,8 +22,8 @@ const ProductDetailPage = async ({ params }: {
                 </div>
             </div>
             <div className="py-3 px-2">
-                <ProductDetails />
-                <Services />
+                <ProductDetails productDetailText={productDetailText} />
+                <Services productDetailText={productDetailText} locale={lang} />
             </div>
         </div>
     )

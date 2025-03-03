@@ -1,0 +1,44 @@
+{
+  "header": {
+    "navbar": {
+      "btn-trans-vi": "Vietnamese",
+      "btn-trans-en": "English",
+      "btn-trans-ko": "Korean",
+      "btn-book": "Book Now",
+      "input-placeholder": "What are you looking for?"
+    }
+  },
+  "product_detail": {
+    "service": "Service",
+    "service_name": "Hotel home massage service",
+    "service_type": "Home massage - random staff ticket",
+    "ticket_type": "Ticket type",
+    "random_staff": "Random staff",
+    "listed_price": "Listed price",
+    "save": "Save",
+    "free_shipping": "Free shipping - all-inclusive price (including tip), please only pay the exact ticket price",
+    "included_tip_travel": "Includes tip + travel fee (please only pay the exact ticket price)",
+    "service_time": "Service time",
+    "quiet_space": "Quiet space",
+    "absolute_silence": "Absolute silence - do not disturb",
+    "normal_silence": "Normal silence - minimal conversation",
+    "lively_space": "Lively space",
+    "select": "Select",
+    "duration": "Minutes",
+    "compare_market_price": "Compared to market price",
+    "thailand_massage": "Thai Massage",
+    "gua_sha_massage": "Gua Sha combined with massage",
+    "swedish_massage": "Swedish Massage",
+    "booking_guide": "Massage booking guide",
+    "choose_ticket": "Choose the appropriate ticket, add your address & send",
+    "choose_ticket_below": "Please select a ticket",
+    "if_choose_staff": "below if you",
+    "choose_staff": "Choose staff",
+    "staff_will_be_assigned": ", the staff assigned to you will be",
+    "randomly_assigned": "randomly assigned",
+    "book_now": "Book now",
+    "selected_staff_ticket": "Select staff",
+    "if_choose_specific_staff": "Below, if you select a specific staff member, they will be the one performing the massage for you.",
+    "choose_staff_now": "Select staff now"
+  }
+}
