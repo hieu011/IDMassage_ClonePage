@@ -21,6 +21,7 @@ const ProductDetailPage = async ({ params }: {
                     <p className="uppercase text-[var(--header-color-)] text-nowrap">{productDetailText.service_type}</p>
                 </div>
             </div>
+            
             <div className="py-3 px-2">
                 <ProductDetails productDetailText={productDetailText} />
                 <Services productDetailText={productDetailText} locale={lang} />
