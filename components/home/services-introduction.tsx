@@ -25,7 +25,7 @@ export default function ServicesIntroduction({dict,lang} : any) {
     <Container>
       <IntroductionBanner introductionBanner = {introductionBanner}/>
       <LanguageButton/>
-      <PriceRandomEmployee priceRandomEmployee = {priceRandomEmployee}/>
+      <PriceRandomEmployee priceRandomEmployee = {priceRandomEmployee} lang = {lang}/>
       <PricePickEmployee  pricePickEmployee = {pricePickEmployee}/>
       <ListButtonService listButtonService = {listButtonService}/>
       <Recruitment lang={lang}/>
