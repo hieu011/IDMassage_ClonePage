@@ -1,0 +1,98 @@
+{
+    "header": {
+        "navbar": {
+            "btnTransVi": "Vietnamese",
+            "btnTransEn": "English",
+            "btnTransKo": "Korean",
+            "btnBooking": "Book Now",
+            "inputPlaceholder": "What are you looking for?"
+        }
+    },
+    "bannerUrl": {
+        "introductionBanner": "https://bizweb.dktcdn.net/100/449/178/themes/866687/assets/header_banner.jpg?1708595489272",
+        "randomEmployeeBanner": "https://bizweb.dktcdn.net/100/449/178/themes/866687/assets/feature_banner.jpg?1708595489272",
+        "pickEmployeeBanner": "https://bizweb.dktcdn.net/100/449/178/themes/866687/assets/feature4_banner.jpg?1708595489272",
+    },
+    "bannerButton": {
+        "randomEmployeeButton": "BOOK NOW",
+        "pickEmployeeButton": "CHOOSE EMPLOYEE NOW"
+    },
+    "listButtonService": {
+        "workingTime": "WORKING TIME",
+        "instructionsBookMasssage": "INSTRUCTIONS BOOK MASSAGE",
+        "arrivalTime": "ARRIVAL TIME",
+        "ticketPrice": "TICKET PRICE",
+        "paymentMethods": "PAYMENT METHODS",
+        "serviceForm": "SERVICE FORM",
+        "5stepMassageProcess": "5 STEP MASSAGE PROCESS",
+        "benefitsAndNotes": "Benefits And Notes",
+        "contact": "CONTACT",
+        "complain": "COMPLAIN"
+    }
+}
+
+{
+    "header": {
+        "navbar": {
+            "btnTransVi": "베트남어",
+            "btnTransEn": "영어",
+            "btnTransKo": "한국어",
+            "btnBooking": "지금 예약",
+            "inputPlaceholder": "찾고 있는 것이 무엇인가요?"
+        }
+    },
+    "bannerUrl": {
+        "introductionBanner": "https://bizweb.dktcdn.net/100/452/034/themes/866710/assets/header_banner.jpg?1708595546866",
+        "randomEmployeeBanner": "https://bizweb.dktcdn.net/100/452/034/themes/866710/assets/feature_banner.jpg?1708595546866",
+        "pickEmployeeBanner": "https://bizweb.dktcdn.net/100/452/034/themes/866710/assets/feature4_banner.jpg?1708595546866"
+    },
+    "bannerButton": {
+        "randomEmployeeButton": "지금 예약",
+        "pickEmployeeButton": "직원 선택하기"
+    },
+    "listButtonService": {
+        "workingTime": "운영 시간",
+        "instructionsBookMasssage": "마사지 예약 안내",
+        "arrivalTime": "도착 시간",
+        "ticketPrice": "티켓 가격",
+        "paymentMethods": "결제 방법",
+        "serviceForm": "서비스 형태",
+        "5stepMassageProcess": "5단계 마사지 과정",
+        "benefitsAndNotes": "혜택 및 유의사항",
+        "contact": "문의하기",
+        "complain": "불만 접수"
+    }
+}
+
+{
+    "header": {
+        "navbar": {
+            "btn-trans-vi": "Tiếng việt",
+            "btn-trans-en": "Tiếng anh",
+            "btn-trans-ko": "Tiếng hàn",
+            "btn-book": "Đặt ngay",
+            "input-placeholder": "Bạn cần tìm gì?"
+        }
+    },
+    "bannerUrl": {
+        "introductionBanner": "https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/header_banner.jpg?1708595382796",
+        "randomEmployeeBanner": "https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/feature_banner.jpg?1708595382796",
+        "pickEmployeeBanner": "https://bizweb.dktcdn.net/100/408/530/themes/865678/assets/feature4_banner.jpg?1708595382796",
+    },
+    "bannerButton": {
+        "randomEmployeeButton": "ĐẶT NGAY",
+        "pickEmployeeButton": "CHỌN NHÂN VIÊN NGAY"
+    },
+    "listButtonService": {
+        "workingTime": "THỜI GIAN LÀM VIỆC",
+        "instructionsBookMasssage": "HƯỚNG DẪN ĐẶT MASSAGE",
+        "arrivalTime": "THỜI GIAN DI CHUYỂN",
+        "ticketPrice": "GIÁ VÉ",
+        "paymentMethods": "PHƯƠNG THỨC THANH TOÁN",
+        "serviceForm": "LOẠI DỊCH VỤ",
+        "5stepMassageProcess": "QUY TRÌNH MASSAGE",
+        "benefitsAndNotes": "QUYỀN LỢI - LƯU Ý",
+        "contact": "LIÊN HỆ",
+        "complain": "KHIẾU NẠI - GÓP Ý"
+    }
+}

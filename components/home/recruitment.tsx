@@ -2,7 +2,8 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
-export function Recruitment() {
+export function Recruitment({lang} : any) {
+    if (lang !== "vi") return null;
     return (
         <div className="">
             <AspectRatio ratio={40 / 27} className="">

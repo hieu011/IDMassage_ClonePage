@@ -1,13 +1,35 @@
 {
   "header": {
     "navbar": {
-      "btn-trans-vi": "베트남어",
-      "btn-trans-en": "영어",
-      "btn-trans-ko": "한국어",
-      "btn-book": "지금 예약하기",
-      "input-placeholder": "무엇을 찾고 있나요?"
+      "btnTransVi": "베트남어",
+      "btnTransEn": "영어",
+      "btnTransKo": "한국어",
+      "btnBooking": "지금 예약",
+      "inputPlaceholder": "찾고 있는 것이 무엇인가요?"
     }
   },
+  "bannerUrl": {
+    "introductionBanner": "https://bizweb.dktcdn.net/100/452/034/themes/866710/assets/header_banner.jpg?1708595546866",
+    "randomEmployeeBanner": "https://bizweb.dktcdn.net/100/452/034/themes/866710/assets/feature_banner.jpg?1708595546866",
+    "pickEmployeeBanner": "https://bizweb.dktcdn.net/100/452/034/themes/866710/assets/feature4_banner.jpg?1708595546866"
+  },
+  "bannerButton": {
+    "randomEmployeeButton": "지금 예약",
+    "bannerButtonText":"초간편 - 마사지 선택 & 예약만 하면 됨 - 계정 생성 불필요",
+    "pickEmployeeButton": "직원 선택하기"
+  },
+  "listButtonService": [
+    { "label": "운영 시간" },
+    { "label": "마사지 예약 안내" },
+    { "label": "도착 시간" },
+    { "label": "티켓 가격" },
+    { "label": "결제 방법" },
+    { "label": "서비스 형태" },
+    { "label": "5단계 마사지 과정" },
+    { "label": "혜택 및 유의사항" },
+    { "label": "문의하기" },
+    { "label": "불만 접수" }
+  ],
   "product_detail": {
     "service": "서비스",
     "service_name": "호텔 홈 마사지 서비스",
